@@ -1,0 +1,17 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+struct Person
+{
+  int cash;
+  int time;
+
+  Person(int c, int t)
+  {
+    cash = c;
+    time = t;
+  }
+};
